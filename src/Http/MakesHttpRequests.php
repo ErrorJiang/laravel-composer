@@ -88,7 +88,7 @@ class MakesHttpRequests
     }
 
     /**
-     * set type
+     * set method
      */
     public function setMethod($method)
     {
@@ -279,7 +279,7 @@ class MakesHttpRequests
             'host' => $this->host,
             'url' => $this->url,
             'params' => $this->params,
-            'type' => $this->method,
+            'method' => $this->method,
             'headers' => $this->headers,
             'return' => $return,
             'message' => $msg,

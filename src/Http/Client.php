@@ -12,7 +12,7 @@ class Client extends MakesHttpRequests
      *      'url' => '/rest/saleOrder/list',
      *      'params' => ['point_id' => 26950],
      *      'headers' => ['token' => 'xxxxxx'],
-     *      'type' => 'post/post_form/post_multipart/get/delete/put/patch/get'
+     *      'method' => 'post/post_form/post_multipart/get/delete/put/patch/get'
      * ]
      * 
      */
