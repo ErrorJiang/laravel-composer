@@ -1,0 +1,15 @@
+{
+    "name": "tanjiu/laravel-composer",
+    "description": "tanjiu laravel common composer",
+    "license": "MIT",
+	"type": "library",
+    "autoload": {
+        "psr-4": {
+            "Tanjiu\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
+}
+
